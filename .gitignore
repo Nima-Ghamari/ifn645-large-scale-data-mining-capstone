@@ -1,17 +1,22 @@
-# data files (don’t upload unit datasets)
-**/data/
+# datasets (do not upload)
 *.arff
+*.csv
+**/data/
 
-# compiled outputs
+# Java build outputs
 *.class
-*.jar
-/bin/
-/target/
+bin/
+target/
+out/
 
-# IDE
+# Eclipse/IDE
+.classpath
+.project
+.settings/
 .idea/
-*.iml
 .vscode/
-*.classpath
-*.project
-*.settings/
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
